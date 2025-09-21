@@ -1,0 +1,103 @@
+{
+  "name": "saqqara-giza-extension",
+  "version": "1.0.0",
+  "description": "Fullstack AI-powered design suite with React, Next.js, Supabase, Tailwind, and generative AI engines",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "type-check": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "clean": "rm -rf .next out node_modules/.cache",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "next": "14.2.5",
+    "@supabase/supabase-js": "^2.39.3",
+    "@supabase/ssr": "^0.1.0",
+    "framer-motion": "^10.16.16",
+    "@tanstack/react-table": "^8.11.8",
+    "gridjs-react": "^6.1.1",
+    "lucide-react": "^0.294.0",
+    "clsx": "^2.1.0",
+    "tailwind-merge": "^2.2.0",
+    "class-variance-authority": "^0.7.0",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@radix-ui/react-toast": "^1.1.5",
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-dropdown-menu": "^2.0.6",
+    "@radix-ui/react-select": "^2.0.0",
+    "@radix-ui/react-switch": "^1.0.3",
+    "@radix-ui/react-tabs": "^1.0.4",
+    "@radix-ui/react-tooltip": "^1.0.7",
+    "react-hook-form": "^7.49.2",
+    "@hookform/resolvers": "^3.3.2",
+    "zod": "^3.22.4",
+    "sonner": "^1.4.0",
+    "openai": "^4.26.0",
+    "replicate": "^0.25.1",
+    "@vercel/analytics": "^1.1.1",
+    "@vercel/speed-insights": "^1.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@tailwindcss/postcss": "^4",
+    "tailwindcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.3",
+    "@eslint/eslintrc": "^3",
+    "@types/jest": "^29.5.8",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "@testing-library/react": "^14.1.2",
+    "@testing-library/jest-dom": "^6.1.6",
+    "@testing-library/user-event": "^14.5.1",
+    "prettier": "^3.1.1",
+    "prettier-plugin-tailwindcss": "^0.5.9",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.2.0"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,css,md}": [
+      "prettier --write"
+    ]
+  },
+  "keywords": [
+    "nextjs",
+    "react",
+    "typescript",
+    "tailwindcss",
+    "supabase",
+    "framer-motion",
+    "ai",
+    "design-suite",
+    "responsive-tables",
+    "shadcn-ui"
+  ],
+  "author": "gTek-Keys",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gTek-Keys/Saqqara-Giza-Extension.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gTek-Keys/Saqqara-Giza-Extension/issues"
+  },
+  "homepage": "https://github.com/gTek-Keys/Saqqara-Giza-Extension#readme"
+}
